@@ -50,8 +50,8 @@ export function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Computer Science graduate passionate about frontend development.
+          Seeking an entry-level Frontend Developer role.
         </p>
 
         <a href={CV} download>
