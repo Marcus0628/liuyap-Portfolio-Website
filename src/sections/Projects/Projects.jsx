@@ -4,6 +4,9 @@ import amazon from '../../assets/amazon.png';
 import portfolio from '../../assets/portfolio.png';
 import game from '../../assets/game.png';
 import zero from '../../assets/zero.png';
+import chat from '../../assets/chat.png';
+import news from '../../assets/news.png';
+
 import ProjectCard from '../../common/ProjectCard';
 import { useState } from 'react';
 
@@ -45,6 +48,27 @@ function Projects() {
       h3: 'ZERO',
       p: 'A Food Waste Reduction App',
     },
+    {
+      id: 6,
+      src: chat,
+      link: 'https://github.com/Marcus0628/Chat-App',
+      h3: 'Chat App',
+      p: 'A Real-Time Messaging Chat App',
+    },
+    {
+      id: 7,
+      src: news,
+      link: 'https://github.com/Marcus0628/News-Search-App',
+      h3: 'News Search App',
+      p: 'A News Search App',
+    },
+    // {
+    //   id: 8,
+    //   src: news,
+    //   link: 'https://github.com/Marcus0628/Food-Order-App',
+    //   h3: 'Food Order App',
+    //   p: 'A Food Order App',
+    // },
   ]);
 
   return (
